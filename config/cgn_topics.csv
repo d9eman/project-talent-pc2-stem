@@ -1,0 +1,58 @@
+topic,table,column,outcome_type,aux,label,notes
+hs_diploma,follow_up_full_view,Y1_E101,hs_diploma_from_e101,,"HS diploma / graduated (Y1_E101)","YES=25/24/23/20; NO=16/15/14/13/12/11/10."
+college_attended_any,follow_up_full_view,Y1_E301,college_attended_any_from_e301,,"Attended college since leaving HS (Y1_E301)","Attended=10/11/12/13/14; Not attended=6/7/8/9."
+college_dropout_among_attenders,follow_up_full_view,Y1_E301,college_dropout_among_attenders_from_e301,,"Dropped out among those who attended (Y1_E301)","Keep only attenders; dropout=11/12; persisted=10/13/14."
+college_plans_among_nonattenders,follow_up_full_view,Y1_E301,college_plans_among_nonattenders_from_e301,,"Plans among non-attenders (Y1_E301)","Keep only non-attenders; plans=8/9; no plans=6/7."
+major_intent_stem_y1,follow_up_full_view,Y1_E320,major_group_from_codes,stem,"Intended major is STEM (Y1_E320)","Uses major_codes_stem.csv (engineering+stem_other)."
+major_intent_engineering_y1,follow_up_full_view,Y1_E320,major_group_from_codes,engineering,"Intended major is Engineering/CS (Y1_E320)","Engineering/CS=33/34."
+major_realized_stem_y11,follow_up_full_view,Y11_E321,major_group_from_codes,stem,"Realized major is STEM (Y11_E321)","Uses major_codes_stem.csv (engineering+stem_other)."
+major_realized_engineering_y11,follow_up_full_view,Y11_E321,major_group_from_codes,engineering,"Realized major is Engineering/CS (Y11_E321)","Engineering/CS=33/34."
+stem_job,follow_y11,Y11_O202,stem_job_from_occ,,"STEM job (Y11_O202)","Uses career_codes_stem.csv mapping (engineering+stem_other)."
+engineering_job,follow_y11,Y11_O202,engineering_job_from_occ,,"Engineering job (Y11_O202)","Uses career_codes_stem.csv mapping (engineering)."
+followthrough_intent_stem_to_job,joined_full_y11,Y1_E320,followthrough_major_to_job,stem,"Follow-through: intended STEM major -> STEM job","Among intended STEM (Y1_E320 in stem codes) set y=1 if STEM job (Y11_O202 stem codes)."
+followthrough_intent_eng_to_job,joined_full_y11,Y1_E320,followthrough_major_to_job,engineering,"Follow-through: intended ENG/CS major -> ENG job","Among intended ENG/CS (Y1_E320 in engineering codes) set y=1 if engineering job."
+full_time_job,follow_y11,Y11_O106A,full_time_from_o106,,"Has full-time job (Y11_O106A/B)","Derived: (A==1) or (B==1)."
+part_time_job,follow_y11,Y11_O106C,part_time_from_o106,,"Has part-time job (Y11_O106C/D)","Derived: (C==1) or (D==1)."
+childless_by_28,follow_y11,Y11_P301,childless_from_children_count,,"Childless (0 kids) (Y11_P301)","Childless=0 kids; NULL=no response."
+course_completed,follow_y11,Y11_E202,course_completed_from_e202,,"Completed course (Y11_E202)","Binary 1/0."
+course_not_completed,follow_y11,Y11_E202,course_not_completed_from_e202,,"Did not complete course (Y11_E202)","Binary inversion of E202."
+course_dropout_any_reason,follow_y11,Y11_E203A,course_dropout_any_reason_from_e203,,"Dropped out (any reason flagged) (Y11_E203A-H)","Any of E203A..H == 1 (when any observed)."
+school_grade_overall,follow_up_full_view,Y1_E330Z,grades_overall_from_e330,,Overall average grade (Y1_E330Z),Uses 1-5 only; 7/8 treated missing.
+school_grade_stem_avg,follow_up_full_view,Y1_E330A,grades_stem_from_e330,,STEM average grade (E330A/B/C/N),Avg of math+phys+bio+engineering; 1-5 only; 7/8 missing.
+career_age_first_thought_all,follow_y11,Y11_O432A,age_midpoint_from_o432,all,"Age first thought of occupation (midpoint)","1=under10..7=26+, 8=never (excluded from midpoint)."
+career_age_first_thought_stem,follow_y11,Y11_O432A,age_midpoint_from_o432,stem_only,"Age first thought of occupation (midpoint), STEM jobs only","Restricted to STEM jobs using Y11_O202 mapping."
+career_age_first_thought_nonstem,follow_y11,Y11_O432A,age_midpoint_from_o432,nonstem_only,"Age first thought of occupation (midpoint), non-STEM jobs only","Restricted to non-STEM jobs using Y11_O202 mapping."
+
+career_age_seriously_considered_all,follow_y11,Y11_O432B,age_midpoint_from_o432,all,"Age first seriously considered occupation (midpoint)","1=under10..7=26+, 8=never (excluded from midpoint)."
+career_age_seriously_considered_stem,follow_y11,Y11_O432B,age_midpoint_from_o432,stem_only,"Age first seriously considered occupation (midpoint), STEM jobs only","Restricted to STEM jobs using Y11_O202 mapping."
+career_age_seriously_considered_nonstem,follow_y11,Y11_O432B,age_midpoint_from_o432,nonstem_only,"Age first seriously considered occupation (midpoint), non-STEM jobs only","Restricted to non-STEM jobs using Y11_O202 mapping."
+
+career_age_definitely_decided_all,follow_y11,Y11_O432C,age_midpoint_from_o432,all,"Age definitely decided on occupation (midpoint)","1=under10..7=26+, 8=never (excluded from midpoint)."
+career_age_definitely_decided_stem,follow_y11,Y11_O432C,age_midpoint_from_o432,stem_only,"Age definitely decided on occupation (midpoint), STEM jobs only","Restricted to STEM jobs using Y11_O202 mapping."
+career_age_definitely_decided_nonstem,follow_y11,Y11_O432C,age_midpoint_from_o432,nonstem_only,"Age definitely decided on occupation (midpoint), non-STEM jobs only","Restricted to non-STEM jobs using Y11_O202 mapping."
+
+career_never_thought_all,follow_y11,Y11_O432A,age_never_from_o432,all,"Never thought of occupation (A=first thought)","Binary: 1 if code=8, else 0 among 1..8."
+career_never_considered_all,follow_y11,Y11_O432B,age_never_from_o432,all,"Never seriously considered occupation (B)","Binary: 1 if code=8, else 0 among 1..8."
+career_never_decided_all,follow_y11,Y11_O432C,age_never_from_o432,all,"Never definitely decided occupation (C)","Binary: 1 if code=8, else 0 among 1..8."
+
+ever_married_all,follow_y11,Y11_P201,ever_married_from_p201,all,"Ever married (A-D)","1 if A/B/C/D; 0 otherwise if known."
+ever_married_stem,follow_y11,Y11_P201,ever_married_from_p201,stem_only,"Ever married (A-D), STEM jobs only","Restricted to STEM jobs using Y11_O202 mapping."
+ever_married_nonstem,follow_y11,Y11_P201,ever_married_from_p201,nonstem_only,"Ever married (A-D), non-STEM jobs only","Restricted to non-STEM jobs using Y11_O202 mapping."
+
+currently_married_among_ever_all,follow_y11,Y11_P201,currently_married_among_ever_from_p201,all,"Currently married among ever-married","Among A/B/C/D: 1 if A else 0."
+currently_married_among_ever_stem,follow_y11,Y11_P201,currently_married_among_ever_from_p201,stem_only,"Currently married among ever-married, STEM jobs only","Restricted to STEM jobs using Y11_O202 mapping."
+currently_married_among_ever_nonstem,follow_y11,Y11_P201,currently_married_among_ever_from_p201,nonstem_only,"Currently married among ever-married, non-STEM jobs only","Restricted to non-STEM jobs using Y11_O202 mapping."
+
+age_first_marriage_all,follow_y11,Y11_P212,age_first_marriage_from_p212,all,"Age at first marriage (numeric)","Maps under16 to 15; 31+ to 31 if needed; keeps 16..31."
+age_first_marriage_stem,follow_y11,Y11_P212,age_first_marriage_from_p212,stem_only,"Age at first marriage, STEM jobs only","Restricted to STEM jobs using Y11_O202 mapping."
+age_first_marriage_nonstem,follow_y11,Y11_P212,age_first_marriage_from_p212,nonstem_only,"Age at first marriage, non-STEM jobs only","Restricted to non-STEM jobs using Y11_O202 mapping."
+
+divorced_all,follow_y11,Y11_P201,divorced_from_p201,all,"Divorced/annulled (Y11_P201)","Binary 1 if divorced code (assumed=3)."
+separated_all,follow_y11,Y11_P201,separated_from_p201,all,"Separated (Y11_P201)","Binary 1 if separated code (assumed=2)."
+widowed_all,follow_y11,Y11_P201,widowed_from_p201,all,"Widowed (Y11_P201)","Binary 1 if widowed code (assumed=4)."
+never_married_all,follow_y11,Y11_P201,never_married_from_p201,all,"Never married (Y11_P201)","Binary 1 if never-married code (assumed=5)."
+currently_married_all2,follow_y11,Y11_P201,currently_married_from_p201,all,"Currently married (Y11_P201)","Binary 1 if married code (assumed=1)."
+
+divorced_stem,follow_y11,Y11_P201,divorced_from_p201,stem_only,"Divorced/annulled, STEM jobs only","Subset to STEM jobs using Y11_O202."
+divorced_nonstem,follow_y11,Y11_P201,divorced_from_p201,nonstem_only,"Divorced/annulled, non-STEM jobs only","Subset to non-STEM jobs using Y11_O202."
+

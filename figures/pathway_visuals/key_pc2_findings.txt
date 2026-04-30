@@ -1,0 +1,168 @@
+KEY FINDINGS FROM PC2 PATHWAY TABLES
+==================================================
+
+FEMALE
+--------------------
+HS engineering interest ≥ 4:
+  non-CGN low PC2:  0.1443
+  non-CGN high PC2: 0.3034
+  CGN low PC2:      0.2715
+  CGN high PC2:     0.5585
+  high-low within non-CGN: 0.1591
+  high-low within CGN:     0.2870
+  CGN - non-CGN at low PC2:  0.1272
+  CGN - non-CGN at high PC2: 0.2551
+
+HS engineering interest = 5:
+  non-CGN low PC2:  0.0506
+  non-CGN high PC2: 0.1188
+  CGN low PC2:      0.0971
+  CGN high PC2:     0.2665
+  high-low within non-CGN: 0.0682
+  high-low within CGN:     0.1694
+  CGN - non-CGN at low PC2:  0.0465
+  CGN - non-CGN at high PC2: 0.1477
+
+HS STEM interest ≥ 4:
+  non-CGN low PC2:  0.4326
+  non-CGN high PC2: 0.6882
+  CGN low PC2:      0.5773
+  CGN high PC2:     0.8304
+  high-low within non-CGN: 0.2557
+  high-low within CGN:     0.2531
+  CGN - non-CGN at low PC2:  0.1447
+  CGN - non-CGN at high PC2: 0.1422
+
+HS STEM interest = 5:
+  non-CGN low PC2:  0.1713
+  non-CGN high PC2: 0.3614
+  CGN low PC2:      0.2691
+  CGN high PC2:     0.5219
+  high-low within non-CGN: 0.1901
+  high-low within CGN:     0.2528
+  CGN - non-CGN at low PC2:  0.0978
+  CGN - non-CGN at high PC2: 0.1605
+
+Y1 intended STEM major:
+  non-CGN low PC2:  0.0327
+  non-CGN high PC2: 0.0428
+  CGN low PC2:      0.0629
+  CGN high PC2:     0.0689
+  high-low within non-CGN: 0.0101
+  high-low within CGN:     0.0060
+  CGN - non-CGN at low PC2:  0.0302
+  CGN - non-CGN at high PC2: 0.0261
+
+Y11 realized STEM major:
+  non-CGN low PC2:  0.0718
+  non-CGN high PC2: 0.0704
+  CGN low PC2:      0.1133
+  CGN high PC2:     0.1160
+  high-low within non-CGN: -0.0014
+  high-low within CGN:     0.0027
+  CGN - non-CGN at low PC2:  0.0415
+  CGN - non-CGN at high PC2: 0.0455
+
+Y11 STEM job:
+  non-CGN low PC2:  0.0032
+  non-CGN high PC2: 0.0026
+  CGN low PC2:      0.0053
+  CGN high PC2:     0.0052
+  high-low within non-CGN: -0.0006
+  high-low within CGN:     -0.0001
+  CGN - non-CGN at low PC2:  0.0021
+  CGN - non-CGN at high PC2: 0.0025
+
+Y11 engineering job:
+  non-CGN low PC2:  0.0022
+  non-CGN high PC2: 0.0016
+  CGN low PC2:      0.0037
+  CGN high PC2:     0.0041
+  high-low within non-CGN: -0.0005
+  high-low within CGN:     0.0004
+  CGN - non-CGN at low PC2:  0.0015
+  CGN - non-CGN at high PC2: 0.0025
+
+
+MALE
+--------------------
+HS engineering interest ≥ 4:
+  non-CGN low PC2:  0.7505
+  non-CGN high PC2: 0.9297
+  CGN low PC2:      0.6144
+  CGN high PC2:     0.8245
+  high-low within non-CGN: 0.1792
+  high-low within CGN:     0.2101
+  CGN - non-CGN at low PC2:  -0.1361
+  CGN - non-CGN at high PC2: -0.1052
+
+HS engineering interest = 5:
+  non-CGN low PC2:  0.4039
+  non-CGN high PC2: 0.6596
+  CGN low PC2:      0.3016
+  CGN high PC2:     0.5076
+  high-low within non-CGN: 0.2557
+  high-low within CGN:     0.2060
+  CGN - non-CGN at low PC2:  -0.1022
+  CGN - non-CGN at high PC2: -0.1520
+
+HS STEM interest ≥ 4:
+  non-CGN low PC2:  0.8267
+  non-CGN high PC2: 0.9644
+  CGN low PC2:      0.7548
+  CGN high PC2:     0.9182
+  high-low within non-CGN: 0.1377
+  high-low within CGN:     0.1634
+  CGN - non-CGN at low PC2:  -0.0719
+  CGN - non-CGN at high PC2: -0.0462
+
+HS STEM interest = 5:
+  non-CGN low PC2:  0.4823
+  non-CGN high PC2: 0.7321
+  CGN low PC2:      0.4286
+  CGN high PC2:     0.6518
+  high-low within non-CGN: 0.2499
+  high-low within CGN:     0.2233
+  CGN - non-CGN at low PC2:  -0.0537
+  CGN - non-CGN at high PC2: -0.0803
+
+Y1 intended STEM major:
+  non-CGN low PC2:  0.1935
+  non-CGN high PC2: 0.2013
+  CGN low PC2:      0.1686
+  CGN high PC2:     0.1765
+  high-low within non-CGN: 0.0078
+  high-low within CGN:     0.0078
+  CGN - non-CGN at low PC2:  -0.0249
+  CGN - non-CGN at high PC2: -0.0248
+
+Y11 realized STEM major:
+  non-CGN low PC2:  0.3181
+  non-CGN high PC2: 0.2701
+  CGN low PC2:      0.2120
+  CGN high PC2:     0.1693
+  high-low within non-CGN: -0.0480
+  high-low within CGN:     -0.0426
+  CGN - non-CGN at low PC2:  -0.1061
+  CGN - non-CGN at high PC2: -0.1008
+
+Y11 STEM job:
+  non-CGN low PC2:  0.0461
+  non-CGN high PC2: 0.0408
+  CGN low PC2:      0.0324
+  CGN high PC2:     0.0268
+  high-low within non-CGN: -0.0053
+  high-low within CGN:     -0.0055
+  CGN - non-CGN at low PC2:  -0.0137
+  CGN - non-CGN at high PC2: -0.0139
+
+Y11 engineering job:
+  non-CGN low PC2:  0.0416
+  non-CGN high PC2: 0.0366
+  CGN low PC2:      0.0268
+  CGN high PC2:     0.0234
+  high-low within non-CGN: -0.0050
+  high-low within CGN:     -0.0034
+  CGN - non-CGN at low PC2:  -0.0148
+  CGN - non-CGN at high PC2: -0.0132
+

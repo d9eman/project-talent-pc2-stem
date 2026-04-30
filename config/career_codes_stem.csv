@@ -1,0 +1,15 @@
+code,label,group,group_detail
+240,Engineer (NEC),engineering,engineering_nec
+241,Civil/Hydraulic Engineer,engineering,eng_civil
+242,Electrical/Electronic Engineer,engineering,eng_electrical
+243,Mechanical/Automotive Engineer,engineering,eng_mechanical
+244,Aeronautical Engineer,engineering,eng_aero
+245,Chemical Engineer,engineering,eng_chemical
+221,Systems Analyst (Computer),engineering,eng_cs_systems
+
+211,Mathematician,stem_other,math
+230,Scientist or Physical Scientist,stem_other,physical_scientist_nec
+232,Physicist,stem_other,physicist
+310,Biologist/Zoologist/Botanist/Paleontologist,stem_other,biologist
+316,Microbiologist,stem_other,microbiologist
+317,Biochemist,stem_other,biochemist
